@@ -7,7 +7,7 @@ Here we have a dataset on insurance company clients. Our goal is to explore grou
 First, we should do some data preprocessing: clean the data, fill in the missing values (if any), and change data types. Next, we need to scale and encode the data. Afterward, we could proceed to models development.
 
 ## Conclusion
-Using some data on the insurance customers, we explored several tasks: 
+After preprocessing, we explored several tasks: 
 1. Classification of customers using the KNN method with different distance metrics. We saw that scaling is necessary for this algorithm.
 2. Predicting if `insurance_benefits` is more than zero like a binary classification task; KNN gives much better results than a dummy model.
 3. Prediction of insurance benefits number with a linear regression model.
